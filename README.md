@@ -1,6 +1,6 @@
-# Challenge de React - Datcom
+#  API Product Explorer
 
-Este proyecto es una solución al challenge de React proporcionado por Datcom, una empresa con sede en Mar del Plata. El objetivo de este ejercicio es utilizar React para crear una aplicación que interactúe con la API proporcionada y muestre una lista de productos en una tabla. Además, se debe permitir eliminar productos de la lista y filtrar los productos por categoría. Cómo opcional se realizó la creación de productos.
+El objetivo de este proyecto es utilizar React para crear una aplicación que interactúe con una aPI de productos y muestre una lista de productos en una tabla. Además, se debe permitir eliminar productos de la lista y filtrar los productos por categoría. Cómo opcional se realizó la creación de productos.
 
 ## Stack:
 
@@ -14,7 +14,7 @@ Este proyecto es una solución al challenge de React proporcionado por Datcom, u
 
 ## Desarrollo
 
-#### Para cumplir con los requisitos del ejercicio, sigue estos pasos:
+#### El proyecto cuenta con la funcionalidad necesaria para: 
 
 1. Obtener una lista de productos y guardarlos en un estado:
    Utiliza la API proporcionada Fake Store API para obtener una lista de productos. Guarda estos datos en el estado de tu aplicación.
@@ -23,21 +23,16 @@ Este proyecto es una solución al challenge de React proporcionado por Datcom, u
    Descripción
    Precio
    Categoría
-   Imagen (opcional)
+   Imagen 
    Acciones
    Crea una tabla en la interfaz de usuario que muestre estos datos.
 
-3. En la celda de acciones, poner un botón/texto para permitir eliminar un producto de la lista:
-   Agrega un botón o enlace en la celda de acciones de cada fila de la tabla que permita eliminar el producto correspondiente de la lista.
+3. En la celda de acciones, aparece un botón/texto para permitir eliminar un producto de la lista:
+   Hay un botón o enlace en la celda de acciones de cada fila de la tabla que permita eliminar el producto correspondiente de la lista.
 
-4. Crear un Select con todas las categorías pertenecientes a los productos obtenidos, en lo posible que no se repitan y filtrar los productos de la tabla:
-   Genera un menú desplegable (select) que contenga todas las categorías únicas de los productos obtenidos. Al seleccionar una categoría en el menú desplegable, filtra la tabla para mostrar solo los productos de esa categoría.
+4. Hay un Select con todas las categorías pertenecientes a los productos obtenidos, en lo posible que no se repitan y se puede filtrar los productos de la tabla:
+   Se generó un menú desplegable (select) que contiene todas las categorías únicas de los productos obtenidos. Al seleccionar una categoría en el menú desplegable, filtra la tabla para mostrar solo los productos de esa categoría.
 
-## Entrega
-
-- Sube tu código a un repositorio en GitHub, GitLab o Bitbucket.
-- Proporciona un enlace al repositorio en tu entrega.
-- Además del repositorio, puedes proporcionar un enlace a una plataforma en línea de desarrollo, como CodeSandbox, para que los revisores puedan probar la aplicación en vivo.
 
 ## Observaciones Generales
 
@@ -46,13 +41,12 @@ Este proyecto es una solución al challenge de React proporcionado por Datcom, u
 - Implementé SweetAlert para las alertas personalizadas.
 - Barra de navegación: Agregué una barra de busqueda para poder filtrar por el titulo del producto.
 - Select de filtrado: Agregué un select para filtrar por categorias.
-- Utilicé el logo de la empresa para hacerlo más personalizado.
-- Al terminar con el proyecto refactoicé el código para que sea más lejible.
+- Al terminar con el proyecto refactoricé el código para que sea más lejible.
 
 ## Consideraciones finales
 
 > ⚠️ **Importante:**
-> Este es un mensaje de advertencia importante. Asegúrate de revisar el TODO que se encuentra en la raiz del proyecto donde allí se encontrarán todos los puntos importantes que se fueron contemplando mientras se desarrolló este challenge.
+> Este es un mensaje de advertencia importante. Asegúrate de revisar el TODO que se encuentra en la raiz del proyecto donde allí se encontrarán todos los puntos importantes que se fueron contemplando mientras se desarrolló esta propuesta.
 
 #### En el futuro, se pueden considerar agregar las siguientes características a la aplicación:
 
@@ -69,6 +63,6 @@ Este proyecto es una solución al challenge de React proporcionado por Datcom, u
 #### Detalles de la aplicación:
 
 - Al filtrar y eliminar un producto se reinicia el selector a 'todas' por default.
-- Agregué funcionalidad extra para hacer más completo el challenge.
+- Agregué funcionalidad extra para hacer más completo el projecto.
 - No es posible borrar los registros creados manualmente porque la API no encuentra el producto con el ID creado.
 - En caso de querer eliminar un producto agregado por nosotros, se capturará el error de que el ID no se encuentra en la API y le devolveremos un mensaje de que no se puede eliminar ese producto en este momento.
