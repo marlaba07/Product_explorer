@@ -66,3 +66,6 @@ El objetivo de este proyecto es utilizar React para crear una aplicación que in
 - Agregué funcionalidad extra para hacer más completo el projecto.
 - No es posible borrar los registros creados manualmente porque la API no encuentra el producto con el ID creado.
 - En caso de querer eliminar un producto agregado por nosotros, se capturará el error de que el ID no se encuentra en la API y le devolveremos un mensaje de que no se puede eliminar ese producto en este momento.
+
+
+Despliegue en: product-explorer-seven.vercel.app
