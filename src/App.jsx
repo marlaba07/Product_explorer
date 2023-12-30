@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Swal from 'sweetalert2';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import imagen from './assets/datcom-icon.png';
+import imagen from './assets/logo.svg';
 
 // Componentes utilizados
 import CategoryFilter from './components/CategoryFilter';
