@@ -68,4 +68,4 @@ El objetivo de este proyecto es utilizar React para crear una aplicación que in
 - En caso de querer eliminar un producto agregado por nosotros, se capturará el error de que el ID no se encuentra en la API y le devolveremos un mensaje de que no se puede eliminar ese producto en este momento.
 
 
-Despliegue en: product-explorer-seven.vercel.app
+Despliegue en: https://product-explorer-seven.vercel.app/
